@@ -33,7 +33,7 @@ dependencies:
   url_launcher: ^6.1.7
   cloud_firestore: ^4.0.2
   cupertino_icons: ^1.0.2
-  dio: ^4.0.6
+  dio: ^5.1.1
   easy_geofencing: ^0.2.0
   email_otp: ^1.0.4
   file_picker: ^4.6.1
