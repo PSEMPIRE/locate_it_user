@@ -122,19 +122,13 @@ packages:
     source: hosted
     version: "1.0.5"
   dio:
-  final dio = Dio();
-dio.options.validateStatus = (status) {
-  // return true if the status code is between 200 and 299
-  return status >= 200 && status < 300;
-};
-
     dependency: "direct main"
     description:
       name: dio
       sha256: "7d328c4d898a61efc3cd93655a0955858e29a0aa647f0f9e02d59b3bb275e2e8"
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.6"
+    version: "5.1.1"
   easy_geofencing:
     dependency: "direct main"
     description:
