@@ -37,7 +37,7 @@ class _SignUpState extends State<SignUp> {
   EmailOTP emailOTP = EmailOTP();
   Future<void> sendOTP() async {
     emailOTP.setConfig(
-        appEmail: "ronitrameja28@gmail",
+        appEmail: "",
         appName: "Locate It",
         userEmail: _emailController.text,
         otpLength: 6,

@@ -12,7 +12,7 @@ class DatabaseServices {
   // ignore: deprecated_member_use
   final ref = FirebaseDatabase(
           databaseURL:
-              "https://locate-it-e063c-default-rtdb.asia-southeast1.firebasedatabase.app")
+              "")
       // ignore: deprecated_member_use
       .ref("BUS");
 
